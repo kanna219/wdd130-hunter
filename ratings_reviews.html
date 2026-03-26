@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Toilets - Reviews</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <img src="images/worldmap.jpg" alt="World Map" class="logo">
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="ratings_reviews.html">Reviews</a>
+            <a href="about.html">About</a>
+        </div>
+    </nav>
+</header>
+
+<main>
+
+    <section class="hero">
+        <h1>Rate Your Throne Experience 🚽</h1>
+        <p>Share your honest review of bathrooms from around the world.</p>
+    </section>
+
+    <section class="review-form-section">
+        <h2>Submit a Review</h2>
+
+        <form>
+
+            <!-- Location -->
+            <div class="form-group">
+                <label for="location">Location Name</label>
+                <input type="text" id="location" name="location" placeholder="e.g. Tokyo Train Station" required>
+            </div>
+
+            <!-- Cleanliness -->
+            <div class="form-group">
+                <label for="cleanliness">Cleanliness</label>
+                <p>How clean was the restroom?</p>
+                <select id="cleanliness" name="cleanliness">
+                    <option value="">Select rating</option>
+                    <option>1 - Disaster Zone</option>
+                    <option>2 - Rough</option>
+                    <option>3 - Acceptable</option>
+                    <option>4 - Clean</option>
+                    <option>5 - Spotless</option>
+                </select>
+            </div>
+
+            <!-- Comfort -->
+            <div class="form-group">
+                <label for="comfort">Comfort</label>
+                <p>How comfortable was it using it?</p>
+                <select id="comfort" name="comfort">
+                    <option value="">Select rating</option>
+                    <option>1 - Traumatizing</option>
+                    <option>2 - Unpleasant</option>
+                    <option>3 - Fine</option>
+                    <option>4 - Comfortable</option>
+                    <option>5 - Throne Worthy</option>
+                </select>
+            </div>
+
+            <!-- Accessibility -->
+            <div class="form-group">
+                <label for="accessibility">Accessibility</label>
+                <p>How easy was getting to the bathroom?</p>
+                <select id="accessibility" name="accessibility">
+                    <option value="">Select rating</option>
+                    <option>1 - Impossible</option>
+                    <option>2 - Difficult</option>
+                    <option>3 - Average</option>
+                    <option>4 - Easy</option>
+                    <option>5 - Effortless</option>
+                </select>
+            </div>
+
+            <!-- Supplies -->
+            <div class="form-group">
+                <label for="supplies">Available Supplies</label>
+                <p>Were essentials available?</p>
+                <select id="supplies" name="supplies">
+                    <option value="">Select rating</option>
+                    <option>1 - Nothing there</option>
+                    <option>2 - Bare minimum</option>
+                    <option>3 - Some supplies</option>
+                    <option>4 - Well stocked</option>
+                    <option>5 - Fully stocked luxury</option>
+                </select>
+            </div>
+
+            <!-- Overall -->
+            <div class="form-group">
+                <label for="overall">Overall Experience</label>
+                <select id="overall" name="overall">
+                    <option value="">Select rating</option>
+                    <option>1 - Never again</option>
+                    <option>2 - Would avoid</option>
+                    <option>3 - It worked</option>
+                    <option>4 - Good experience</option>
+                    <option>5 - Life changing</option>
+                </select>
+            </div>
+
+            <!-- Comments -->
+            <div class="form-group">
+                <label for="comments">Additional Comments</label>
+                <textarea id="comments" name="comments" rows="4" placeholder="Tell your story..."></textarea>
+            </div>
+
+            <!-- Submit -->
+            <button type="submit">Submit Review</button>
+
+        </form>
+    </section>
+
+    <!-- Placeholder for future reviews display -->
+    <section class="reviews-display">
+        <h2>Recent Reviews</h2>
+        <p>(User reviews will appear here...)</p>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Global Toilets 🌎🚽</p>
+</footer>
+
+</body>
+</html>
