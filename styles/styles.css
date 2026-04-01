@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #27AE60;
+    background-color: #F2F2F2;
     font-family: "Open Sans";
     line-height: 1.6;
 }
@@ -94,13 +94,13 @@ h2 {
 
 section {
     padding: 40px;
-    background-color: #F2F2F2;
+    background-color: white;
     margin-bottom: 2px;
     box-shadow: 0 3px 10px rgba(0,0,0,0.1);
 }
 
 .summary {
-    background-color: white;
+    background-color: #F2F2F2;
     padding: 30px 50px;
     margin: 20px auto;
     width: 80%;
@@ -108,7 +108,6 @@ section {
     border-radius: 10px;
     line-height: 1.7;
 }
-
 
 ul {
     margin: 15px 0 15px 20px;   
