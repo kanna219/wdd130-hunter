@@ -124,6 +124,70 @@ footer {
     border-radius: 0 0 10px 10px;
 }
 
+/* ----- bathroom types Specific ----- */
+
+.overarching{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 5fr 5fr 5fr 5fr 5fr;
+    background-color:#F2F2F2;
+}
+.western_toilets{
+    background-image:url(../images/western.png);
+    background-size:contain;
+    background-position:center;
+    background-repeat:no-repeat;
+    border-radius:10px;
+    box-shadow:#999;
+    margin: 2vw;
+    height:25vw;
+    background-size:cover;
+}
+.heading{
+    grid-column:1/3;
+    text-align:center;
+}
+.smart{
+    background-image:url(../images/smart.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    border-radius:10px;
+    box-shadow:#999;
+    margin: 2vw;
+    height:25vw;
+}
+.squating_toilet{
+    background-image:url(../images/squat.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    border-radius:10px;
+    box-shadow:#999;
+    margin: 2vw;
+    height:25vw;
+}
+.bidet{
+    background-image:url(../images/bidet.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    border-radius:10px;
+    box-shadow:#999;
+    margin: 2vw;
+    height:25vw;
+}
+.french{
+    background-image:url(../images/french.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    border-radius:10px;
+    box-shadow:#999;
+    margin: 2vw;
+    height:25vw;
+}
+
 /* ----- Ratings & Reviews Specific ----- */
 
 .review-intro {
